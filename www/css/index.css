@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #125681;
+}
+
+.add-btn{
+    margin: 5rem auto;
+    width: 5rem;
+    height: 5rem;
+    padding: 5rem;
+    border-radius: 50%;
+    font-size: 5rem;
+    background-color: #278dce;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    background-color: #67b5e7;
+}
+
+.add-btn:active{
+    background-color: #278dce;
+}
+
+#count{
+    color: white;
+    font-size: 2rem;
+}
+
+#reset{ 
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #278dce;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#reset:hover{
+    box-shadow: 0 2px 2px #444;
+    background-color: #67b5e7;
+}
+
+#reset:active{
+    background-color:  #278dce;
+}
